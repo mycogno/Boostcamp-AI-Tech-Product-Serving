@@ -18,9 +18,7 @@ root_password = "password"
 
 
 def main():
-    st.title(
-        "Mask Classification Model - test - Docker Build Deploy with JDG's other brance"
-    )
+    st.title("Mask Classification Model - Docker Build Deploy with JDG's other branch")
 
     with open("config.yaml") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
